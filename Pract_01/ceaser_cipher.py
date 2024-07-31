@@ -10,4 +10,10 @@ def encrypt(text, shift):
                 result += chr((ord(char) + shift - 65) % 26 + 65)
             else:
                 result += chr((ord(char) + shift - 97) % 26 + 97)
+    return result
+
+text = input("Enter text to encrypt : ")
+shift = input("Enter the value of shift : ")
+
+print("Ceaser Cipher Text is ", encrypt(text, shift))
         
