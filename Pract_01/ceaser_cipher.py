@@ -7,13 +7,18 @@ def encrypt(text, shift):
             result += " "
         else:
             if(char.isupper()):
-                result += chr((ord(char) + shift - 65) % 26 + 65)
+                result += chr((ord(char) + ord(shift) - 65) % 26 + 65)
             else:
-                result += chr((ord(char) + shift - 97) % 26 + 97)
+                result += chr((ord(char) + ord(shift) - 97) % 26 + 97)
+    
     return result
 
 text = input("Enter text to encrypt : ")
 shift = input("Enter the value of shift : ")
 
-print("Ceaser Cipher Text is ", encrypt(text, shift))
+print("Plain Text : " + text)
+
+print("Shift pattern : " + shift)
+
+print("Ceaser Cipher Text is " + encrypt(text, shift))
         
