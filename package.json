@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "crypto-js": "^4.2.0",
     "express": "^4.19.2",
     "merkle": "^0.2.0",
     "node": "^22.6.0"
