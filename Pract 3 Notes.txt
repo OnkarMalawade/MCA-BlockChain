@@ -1,0 +1,2 @@
+1 ether = pow(10 , 18) wei
+1 ether = pow(10 , 15) gwei
