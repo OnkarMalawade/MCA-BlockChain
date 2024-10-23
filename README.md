@@ -28,6 +28,11 @@ Digital Wallet : Metamask, Mist (Plugins or add ons)
 
 > Multiple Private key and Public key
 
+Injected Provider: it connected to the wallet<br/>
+JavaScript VM: transactions executed at sandbox blockchain<br/>
+Web3Provider: remote node Connected<br/>
+
+
 connect wallet to network
 
 Injected Provider used to Connect with wallet store in sepolia
